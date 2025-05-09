@@ -62,7 +62,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
-
+<img
+  alt="Scan to open Healthy Habits"
+  src={
+    "https://chart.googleapis.com/chart" +
+    "?cht=qr" +                        // QR code
+    "&chs=300x300" +                   // size: 300×300px
+    "&chl=" +
+    encodeURIComponent(
+      "https://healthy-habits-school1.netlify.app"
+    )
+  }
+/>
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
